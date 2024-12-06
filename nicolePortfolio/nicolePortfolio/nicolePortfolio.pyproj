@@ -1,0 +1,170 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>nicolePortfolio</Name>
+    <RootNamespace>nicolePortfolio</RootNamespace>
+    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bff8310d-ea73-481a-acf7-13063239a24b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>nicolePortfolio.settings</DjangoSettingsModule>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="nicolePortfolio\__init__.py" />
+    <Compile Include="nicolePortfolio\settings.py" />
+    <Compile Include="nicolePortfolio\urls.py" />
+    <Compile Include="nicolePortfolio\wsgi.py" />
+    <Compile Include="pfl\admin.py" />
+    <Compile Include="pfl\apps.py" />
+    <Compile Include="pfl\migrations\__init__.py" />
+    <Compile Include="pfl\models.py" />
+    <Compile Include="pfl\tests.py" />
+    <Compile Include="pfl\urls.py" />
+    <Compile Include="pfl\views.py" />
+    <Compile Include="pfl\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pfl\static\imgs\artworks\10yuicasual.PNG" />
+    <Content Include="pfl\static\imgs\artworks\11yui.PNG" />
+    <Content Include="pfl\static\imgs\artworks\12aotgirls.PNG" />
+    <Content Include="pfl\static\imgs\artworks\13smile.gif" />
+    <Content Include="pfl\static\imgs\artworks\1skygirl.PNG" />
+    <Content Include="pfl\static\imgs\artworks\2magic.PNG" />
+    <Content Include="pfl\static\imgs\artworks\3poster.PNG" />
+    <Content Include="pfl\static\imgs\artworks\4armin.PNG" />
+    <Content Include="pfl\static\imgs\artworks\5friends.PNG" />
+    <Content Include="pfl\static\imgs\artworks\6levi.PNG" />
+    <Content Include="pfl\static\imgs\artworks\7val.PNG" />
+    <Content Include="pfl\static\imgs\artworks\8mov1.png" />
+    <Content Include="pfl\static\imgs\artworks\8mov2.png" />
+    <Content Include="pfl\static\imgs\artworks\9yuihero.PNG" />
+    <Content Include="pfl\static\imgs\chardes\char1.PNG" />
+    <Content Include="pfl\static\imgs\chardes\char2.PNG" />
+    <Content Include="pfl\static\imgs\chardes\devlin_walk.gif" />
+    <Content Include="pfl\static\imgs\chardes\girl.png" />
+    <Content Include="pfl\static\imgs\chardes\girl1.PNG" />
+    <Content Include="pfl\static\imgs\chardes\girl2.PNG" />
+    <Content Include="pfl\static\imgs\chardes\hero.png" />
+    <Content Include="pfl\static\imgs\chardes\herodes.PNG" />
+    <Content Include="pfl\static\imgs\chardes\hero_helm.png" />
+    <Content Include="pfl\static\imgs\chardes\noahray.PNG" />
+    <Content Include="pfl\static\imgs\chardes\noah_head.PNG" />
+    <Content Include="pfl\static\imgs\chardes\noah_side_pose.png" />
+    <Content Include="pfl\static\imgs\chardes\noah_walk_back.gif" />
+    <Content Include="pfl\static\imgs\chardes\noah_walk_fast.gif" />
+    <Content Include="pfl\static\imgs\chardes\noah_walk_front.gif" />
+    <Content Include="pfl\static\imgs\chardes\noah_walk_side.gif" />
+    <Content Include="pfl\static\imgs\chardes\ray_walk.gif" />
+    <Content Include="pfl\static\imgs\chardes\seraphiel_walk.gif" />
+    <Content Include="pfl\static\imgs\djangoproj\category.png" />
+    <Content Include="pfl\static\imgs\djangoproj\checkout.png" />
+    <Content Include="pfl\static\imgs\djangoproj\pos.png" />
+    <Content Include="pfl\static\imgs\djangoproj\product.png" />
+    <Content Include="pfl\static\imgs\djangoproj\s1.png" />
+    <Content Include="pfl\static\imgs\djangoproj\s2.png" />
+    <Content Include="pfl\static\imgs\djangoproj\sales.png" />
+    <Content Include="pfl\static\imgs\gameproj\AC_STORY.gif" />
+    <Content Include="pfl\static\imgs\gameproj\AC_SURVIVAL1.gif" />
+    <Content Include="pfl\static\imgs\gameproj\AC_SURVIVAL2.gif" />
+    <Content Include="pfl\static\imgs\gameproj\EYEnv_MENU.gif" />
+    <Content Include="pfl\static\imgs\gameproj\STTvn_GAME.gif" />
+    <Content Include="pfl\static\imgs\logo\csp.png" />
+    <Content Include="pfl\static\imgs\logo\dvc.png" />
+    <Content Include="pfl\static\imgs\logo\figma.png" />
+    <Content Include="pfl\static\imgs\nicoleICON.png" />
+    <Content Include="pfl\static\imgs\logo\pr.png" />
+    <Content Include="pfl\static\imgs\logo\ps.png" />
+    <Content Include="pfl\static\imgs\logo\rp.png" />
+    <Content Include="pfl\static\imgs\logo\rpgmv.png" />
+    <Content Include="pfl\static\imgs\nicole.PNG" />
+    <Content Include="pfl\static\imgs\nicolePIXELbig.png" />
+    <Content Include="pfl\templates\pfl\nicolePortfolio.html" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="nicolePortfolio\" />
+    <Folder Include="pfl\" />
+    <Folder Include="pfl\migrations\" />
+    <Folder Include="pfl\static\" />
+    <Folder Include="pfl\static\imgs\" />
+    <Folder Include="pfl\static\imgs\artworks\" />
+    <Folder Include="pfl\static\imgs\chardes\" />
+    <Folder Include="pfl\static\imgs\djangoproj\" />
+    <Folder Include="pfl\static\imgs\gameproj\" />
+    <Folder Include="pfl\static\imgs\logo\" />
+    <Folder Include="pfl\templates\" />
+    <Folder Include="pfl\templates\pfl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>env2</Id>
+      <Version>3.9</Version>
+      <Description>env2 (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
